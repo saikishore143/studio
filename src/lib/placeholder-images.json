@@ -1,3 +1,22 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "pills1",
+      "description": "Round white pills",
+      "imageUrl": "https://picsum.photos/seed/pills1/600/400",
+      "imageHint": "pills medicine"
+    },
+    {
+      "id": "pills2",
+      "description": "Oval red and yellow capsules",
+      "imageUrl": "https://picsum.photos/seed/pills2/600/400",
+      "imageHint": "capsules medicine"
+    },
+    {
+      "id": "pills3",
+      "description": "Blue and white capsules in a bottle",
+      "imageUrl": "https://picsum.photos/seed/pills3/600/400",
+      "imageHint": "pills bottle"
+    }
+  ]
 }
