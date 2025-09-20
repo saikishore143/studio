@@ -1,6 +1,7 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
+import { useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
 import { AlertTriangle, Bot, Loader2, Sparkles } from 'lucide-react';
 
 import { checkSymptoms, type FormState } from '@/app/symptom-checker/actions';
@@ -32,7 +33,7 @@ function SubmitButton() {
 
 export function SymptomCheckerClient() {
   const initialState: FormState = null;
-  const [state, formAction] = useFormState(checkSymptoms, initialState);
+  const [state, formAction] = useActionState(checkSymptoms, initialState);
 
   return (
     <div className="space-y-8">
